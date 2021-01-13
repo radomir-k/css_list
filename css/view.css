@@ -71,7 +71,6 @@ h4 {
     cursor: pointer;
 }
 
-/* input[type="checkbox"]:checked + label,*/
 input[type="checkbox"]:checked + label {
     display: block;
     width: 520px;
@@ -98,6 +97,21 @@ input[type="checkbox"]:checked + label {
 }
 
 .pushBtn:hover {
+    display: block;
+    width: 520px;
+    margin-top: 18px;
+    padding: 18px;
+    text-align: center;
+    background-color: #515757;
+    border-top: #dfd2ff solid 2px;
+    border-bottom: #dfd2ff solid 2px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #dfd2ff;
+    cursor: pointer;
+}
+
+.pushBtn:checked {
     display: block;
     width: 520px;
     margin-top: 18px;
