@@ -1,0 +1,113 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    background-color: #d1d1d1;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.rootBlock {
+    width: 770px;
+    height: 560px;
+    background-color: #3c4141;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.ftrBlock {
+    text-align: center;
+    color: #ef8183;
+    width: 770px;
+    height: 80px;
+    background-color: #515757;
+}
+
+.menuBox {
+    margin-left: 106px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 12px;
+}
+
+h3 {
+    font-size: small;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.menuItem {
+    display: block;
+    width: 520px;
+    margin: 1px;
+    padding: 18px;
+    list-style-type: none;
+    text-align: left;
+    background-color: #9487b4;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menuItem:hover {
+    display: block;
+    width: 520px;
+    margin: 1px;
+    padding: 18px;
+    list-style-type: none;
+    text-align: left;
+    background-color: #544b69;
+    border-top: #dfd2ff solid 2px;
+    border-bottom: #dfd2ff solid 2px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+/* input[type="checkbox"]:checked + label,*/
+input[type="checkbox"]:checked + label {
+    display: block;
+    width: 520px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding:  18px;
+    text-align: left;
+    background-color: #766a92;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.pushBtn {
+    display: block;
+    width: 520px;
+    margin-top: 18px;
+    padding: 18px;
+    text-align: center;
+    background-color: #515757;
+    font-weight: normal;
+    text-decoration: none;
+    color: #ef8183;
+}
+
+.pushBtn:hover {
+    display: block;
+    width: 520px;
+    margin-top: 18px;
+    padding: 18px;
+    text-align: center;
+    background-color: #515757;
+    border-top: #dfd2ff solid 2px;
+    border-bottom: #dfd2ff solid 2px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #dfd2ff;
+    cursor: pointer;
+}
